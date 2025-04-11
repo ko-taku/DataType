@@ -14,7 +14,7 @@ contract DataType {
     function setPositiveNumber(uint256 _positiveNumber) public {
         positiveNumber = _positiveNumber;
     }
-
+    //함수명 사용 시 데이터타입 잘 신경쓰기!
     function setNegativeNumber(int256 _negativeNumber) public {
         negativeNumber = _negativeNumber;
     }
